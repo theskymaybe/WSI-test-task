@@ -27,8 +27,6 @@ And then placed into the current directory:
 ## Structure of this repository
 `data` — a directory containing train and test datasets and outputs for baseline Adagram and AdaGram + NLTK scripts
 
-`adagram.joblib` — an Adagram model
-
 `adagram_nltk.py` — a script using Adagram + NLTK for label prediction
 
 `baseline_adagram.py` — an Adagram baseline generation script
