@@ -18,8 +18,6 @@ and place it into current directory.
 
     wget 'https://s3.amazonaws.com/kostia.lopuhin/all.a010.p10.d300.w5.m100.nonorm.slim.joblib'
 
-I already pre-placed it in the current directory for you as 'adagram.joblib'. Enjoy!
-
 """
 from __future__ import print_function
 import argparse
@@ -74,7 +72,7 @@ def main():
     arg('--input', help='Path to input file with contexts')
     arg('--output', help='Path to output file with predictions')
     arg('--model', help='Path to AdaGram model (%(default)s by default)',
-        default=os.path.abspath('adagram.joblib'))
+        default=os.path.abspath('all.a010.p10.d300.w5.m100.nonorm.slim.joblib'))
     args = parser.parse_args()
     
     #The most important improvement is the list of stopwords from NLTK. It just does all the job
