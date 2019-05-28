@@ -14,6 +14,16 @@ pip install -r requirements.txt
 ```
 Note that `adagram_nltk.py` and `baseline_adagram.py` contain more requirements inside.
 
+AdaGram should be installed and downloaded separately:
+
+```pip install git+https://github.com/lopuhin/python-adagram.git```
+
+[Link for downloading AdaGram](https://s3.amazonaws.com/kostia.lopuhin/all.a010.p10.d300.w5.m100.nonorm.slim.joblib)
+
+And then placed into the current directory:
+
+```wget 'https://s3.amazonaws.com/kostia.lopuhin/all.a010.p10.d300.w5.m100.nonorm.slim.joblib'```
+
 ## Structure of this repository
 `data` — a directory containing train and test datasets and outputs for baseline Adagram and AdaGram + NLTK scripts
 
