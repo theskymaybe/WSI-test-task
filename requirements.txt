@@ -1,0 +1,7 @@
+cython
+pandas
+sklearn
+scipy
+numpy
+nltk
+adagram
