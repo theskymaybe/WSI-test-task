@@ -31,7 +31,7 @@ And then placed into the current directory:
 
 `baseline_adagram.py` — an Adagram baseline generation script
 
-`evaluate.py` — an evaluation script using Ajusted Rand Score (ARI) as an evaluation metric
+`evaluate.py` — an evaluation script using Adjusted Rand Score (ARI) as an evaluation metric
 
 `requirements.txt` — the list of the necessary dependencies
 
