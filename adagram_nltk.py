@@ -106,7 +106,6 @@ def main():
 
     if args.output:
         print('Saving predictions to {}'.format(args.output))
-        #added explicit cp1251 encoding to the output file to prevent problems wih evaluation script later
         df.to_csv(args.output, sep='\t', index=None) 
 
 
