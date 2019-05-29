@@ -63,7 +63,7 @@ The results are shown in the table below:
 
 I experimented with some other approaches to the WSI task, for example, I've tried to implement the average word embeddings clustering approach proposed by [[Kutuzov, 2018](https://arxiv.org/ftp/arxiv/papers/1805/1805.02258.pdf)]. I experimented with different clusterization methods and parameters as well as with different datasets, but despite their high score on train part of the dataset, they failed to beat the baseline on the test part. 
 
-Anyway, I found a way to use the average word embeddings clustering approach to enhance my model by blending the best results. Affinity Propagation clusterization method (`damping=0.5, preference=-1.3`), Spectral Clustering as an optional second clustering stage, and differend skipgram models were used in my experiments. If mentioned in the parameters, weighted sum of the context vectors was used. The code isn't present in this repository (yet), but the three best blending results can be found in the following table:
+Anyway, I found a way to use the average word embeddings clustering approach to enhance my model by blending the best results. Affinity Propagation clusterization method (`damping=0.5, preference=-1.3`), Spectral Clustering as an optional second clustering stage, and differend skipgram models were used in my experiments. If mentioned in the parameters, weighted sum of the context vectors was used. The code isn't present in this repository (yet), but it might be available upon request. Three best blending results can be found in the following table:
 
  |  **Dataset & parameters** | **Train ARI**     | **Test ARI** | 
  |---| ------------- | ------------- |
