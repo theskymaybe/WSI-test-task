@@ -41,7 +41,7 @@ The usage for `adagram_nltk.py` is the following:
 python adagram_nltk.py --input INPUT --output OUTPUT --model MODEL
 --input  INPUT Path to the input CSV file
 --output  OUTPUT Path to the output CSV file
---model  MODEL Path to the AdaGram model file (adagram.joblib in the working directory by default)
+--model  MODEL Path to the AdaGram model file (all.a010.p10.d300.w5.m100.nonorm.slim.joblib in the working directory by default)
 ```
 The `evaluation.py` script can be run in the following way:
 ```
